@@ -61,3 +61,6 @@
  * runtime，以及伴随的 manifest 数据，主要是指：在浏览器运行时，webpack 用来连接模块化的应用程序的所有代码。
     - runtime：模块交互时，连接模块所需的加载和解析逻辑。包括浏览器中的已加载模块的连接，以及懒加载模块的执行逻辑。
     - Mainfest:  webpack 如何管理所有模块之间的交互(manifest 数据用途的由来),通过使用 manifest 中的数据，runtime 将能够查询模块标识符，检索出背后对应的模块。（import 或 require 语句现在都已经转换为 __webpack_require__ 方法）
+    
+    
+# 指南
